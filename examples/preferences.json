@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "instructions": "Rebuild my embedded development workspace. Prioritise Git, Neovim, search and ARM cross compilation. Preserve my dark theme and Vim-style navigation. Ask before recommending hardware fixes.",
+  "applications": ["git", "neovim", "ripgrep", "arm-none-eabi-gcc", "gdb"],
+  "appearance": {"theme": "dark", "editor": "neovim", "keybindings": "vim-style"}
+}

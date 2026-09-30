@@ -1,0 +1,6 @@
+{
+  "os_id": "debian",
+  "architecture": "aarch64",
+  "machine_model": "example-snapdragon-laptop",
+  "installed_applications": ["git"]
+}

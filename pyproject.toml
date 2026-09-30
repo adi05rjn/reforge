@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reforge-local"
+version = "0.1.0"
+description = "Local-first Linux environment memory and migration planner"
+requires-python = ">=3.10"
+authors = [{name = "adi05rjn"}]
+dependencies = []
+
+[project.scripts]
+reforge = "reforge.cli:main"
+
+[tool.setuptools]
+packages = ["reforge"]

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "editor-font-example",
+      "issue": "Editor glyphs displayed incorrectly in a previous workspace (fictional fixture).",
+      "fix": "Review the terminal font selection before restoring the editor configuration.",
+      "outcome": "The user confirmed glyphs rendered correctly after a font change in this example.",
+      "verified": true,
+      "conditions": {"os_id": "debian"}
+    },
+    {
+      "id": "old-laptop-driver-example",
+      "issue": "Display issue on a different laptop (fictional fixture).",
+      "fix": "A device-specific workaround was recorded; do not transfer it to another machine.",
+      "outcome": "Worked on the old example device only.",
+      "verified": true,
+      "conditions": {"architecture": "x86_64", "machine_model": "old-example-laptop"}
+    }
+  ]
+}
